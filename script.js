@@ -29,7 +29,7 @@ console.log("04. filter() method=", longWords);
 
 // 05.foreach() method
 // This method executes a provided function  for each array element.
-console.log("05.foreach() method=", words);
+words.forEach((word) => console.log("05.foreach() method=", word));
 
 // 06.map() method
 // This method creates a new array with the results of calling a function for every array element....
